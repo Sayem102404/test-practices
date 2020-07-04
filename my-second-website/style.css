@@ -1,0 +1,124 @@
+body {
+    font-family: "font-family: 'Nunito Sans', sans-serif";
+    margin: 0px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  
+  p{
+    font-size: 19px;
+    color: #373d3d;
+    text-align: left;
+
+  }
+  h2{ 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: justify;
+  
+  }
+  h3{
+    font-size: 22px;
+  }
+  .sky-highlight {
+    color:#4fbed1
+  }
+  .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 2px;
+  }
+  .half-width img {
+    width: 80%;
+  
+  }
+  .top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+  }
+  section {
+    height: 500px;
+    padding-bottom: 100px;
+  }
+  .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45 deg, #5456c9, #71cef3, #3f88db);
+    background-color: #43d0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 1px #e9c9c9;
+    font-weight: 700;
+    opacity: 0.6;
+    transition: 1s;
+    margin: 4px 2px;
+    text-align: center;
+  }
+  
+  .link-button:hover {
+    background-color: #6bc720;
+    box-shadow: 5px 5px 5px 3px #0000ff33;
+  
+  }
+  
+  .dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  
+  }
+  .single-experience{
+    box-shadow: 5px 5px 10px #b7cccc;
+    border-radius: 5px;
+    height: 80%;
+  }
+  
+  .single-experience:hover{
+    color: #1e86c2;
+  }
+  .experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 5px;
+  }
+  #full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #63db42, #77eda0, #bfded6);
+    border-image-slice: 1;
+    transition: 1s;
+  }
+  
+  #baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #4275f5, #85afcc, #85e4e6);
+    border-image-slice: 1;
+    transition: 1s;
+  }
+  
+  #focus-name{
+    transition: 1s;
+
+  }
+  #exp-transition{
+    transition: 1s;}
+
+  #dream-transition{
+      transition: 1s;
+    }
+
+  footer p {
+    text-align: center;
+    font-size: 12;
+    background-color: #929a9e;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+  
